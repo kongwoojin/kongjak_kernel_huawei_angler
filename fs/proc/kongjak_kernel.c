@@ -6,7 +6,7 @@
 
 static int kongjak_kernel_proc_show(struct seq_file *m, void *v)
 {
-	seq_printf(m, "%s", KONGJAK_KERNEL_VERSION);
+	seq_printf(m, "%s\n", KONGJAK_KERNEL_VERSION);
 	return 0;
 }
 
